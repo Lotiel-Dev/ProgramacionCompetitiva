@@ -3,10 +3,10 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-
-    int t, MK; 
-    cin >> t;
-    while(t--){
+    
+    int test, MK; 
+    cin >> test;
+    while(test--){
         long long n, rx = 0;
         cin >> n;
         vector<int> a(n), T(n + 1);
