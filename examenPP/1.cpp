@@ -35,11 +35,12 @@ int main() {
     
     
 
-
-
-
     for (int i : resultado){
         cout << i << " ";
     }
     return 0;
 }
+
+
+
+
