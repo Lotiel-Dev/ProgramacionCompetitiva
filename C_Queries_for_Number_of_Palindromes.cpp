@@ -33,7 +33,7 @@ void precomputar() {
     }
 }
 
-void resolver(int test) {
+void solve(int test) {
     cin >> cad >> consultas;
     precomputar();
     
@@ -57,7 +57,7 @@ int32_t main() {
         cin >> num_casos;
     }
     for (ll i = 1; i <= num_casos; ++i) {
-        resolver(i);
+        solve(i);
     }
     
     return 0;

@@ -39,7 +39,7 @@ ll comb(ll n, ll r) {
     return (resp * den) % mod;
 }
 
-void resolver_caso() {
+void solve() {
     ll n;
     cin >> n;
     ll suma = 0;
@@ -66,7 +66,7 @@ int main() {
     ll num_casos = 1;
     
     while (num_casos--) {
-        resolver_caso();
+        solve();
     }
     
     return 0;
