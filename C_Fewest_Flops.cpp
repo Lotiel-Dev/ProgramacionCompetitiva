@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int t, k;
+long long t, k;
 string cadena;
 
 vector<vector<int>> memoTabla;
