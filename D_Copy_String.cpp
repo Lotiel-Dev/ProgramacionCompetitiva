@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 bool es_posible(int n, int k_ops, const string& s, const string& t, 
                 const vector<vector<int>>& posiciones_char, vector<int>& target_src) {
@@ -27,7 +26,7 @@ bool es_posible(int n, int k_ops, const string& s, const string& t,
     return true;
 }
 
-void resolver() {
+void solve() {
     int n, k_max;
     if (!(cin >> n >> k_max)) return;
     string s, t;
@@ -104,7 +103,7 @@ int main() {
     int t;
     if (cin >> t) {
         while (t--) {
-            resolver();
+            solve();
         }
     }
     return 0;
